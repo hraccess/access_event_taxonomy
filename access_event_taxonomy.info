@@ -1,0 +1,15 @@
+name = Access Event Taxonomy
+core = 7.x
+package = Access Humanitarian
+version = 7.x-1.0-beta1
+project = access_event_taxonomy
+dependencies[] = features
+dependencies[] = field_sql_storage
+dependencies[] = options
+dependencies[] = taxonomy
+dependencies[] = text
+features[features_api][] = api:1
+features[field][] = taxonomy_term-access_constraint_type-field_access_constraint
+features[field][] = taxonomy_term-access_constraints-field_long_label
+features[taxonomy][] = access_constraint_type
+features[taxonomy][] = access_constraints
