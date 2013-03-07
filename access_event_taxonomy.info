@@ -11,5 +11,3 @@ dependencies[] = text
 features[features_api][] = api:1
 features[field][] = taxonomy_term-access_constraint_type-field_access_constraint
 features[field][] = taxonomy_term-access_constraints-field_long_label
-features[taxonomy][] = access_constraint_type
-features[taxonomy][] = access_constraints
